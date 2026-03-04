@@ -2,14 +2,14 @@
 // 1261947346
 
 import java.util.Scanner;
-public class atividade_2 {
+public class Atividade02 {
     public static void main(String[] args){
         Scanner leia = new Scanner(System.in);
-        System.out.println("Digite o valor de X: ");
+        System.out.print("Digite o valor de X: ");
         int x = leia.nextInt();
-        System.out.println("Digite o valor de Y: ");
+        System.out.print("Digite o valor de Y: ");
         int y = leia.nextInt();
         int resto = x%y;
-        System.out.println("O resto da divisão de " + x + " por " + y + " é: " + resto);
+        System.out.print("\n O resto da divisão de " + x + " por " + y + " é: " + resto);
     }
 }

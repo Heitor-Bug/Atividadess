@@ -2,20 +2,20 @@
 // 1261947346
 
 import java.util.Scanner;
-public class atividade_1 {
+public class Atividade01 {
     public static void main(String[] args){
         Scanner leia = new Scanner(System.in);
-        System.out.println("Digite o primeiro numero: ");
+        System.out.print("Digite o primeiro numero: ");
         double a = leia.nextDouble();
-        System.out.println("Digite o segundo numero: ");
+        System.out.print("Digite o segundo numero: ");
         double b = leia.nextDouble();
         double divisao = a/b;
         double soma = a+b;
         double subtracao = a-b;
         double multiplicacao = a*b;
-        System.out.println("Soma = " + soma);
-        System.out.println("Subtração = " + subtracao);
-        System.out.println("Multiplicação = " + multiplicacao);
-        System.out.println("Divisão = " + divisao);
+        System.out.print("\n Soma = " + soma);
+        System.out.print("\n Subtração = " + subtracao);
+        System.out.print("\n Multiplicação = " + multiplicacao);
+        System.out.print("\n Divisão = " + divisao);
     }
 }
